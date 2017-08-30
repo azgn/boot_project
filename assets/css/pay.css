@@ -1,0 +1,121 @@
+body{
+	background-color: #eee;
+}
+
+.pad{
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.first-font{
+	width: 100%;
+	padding-right: 10px;
+	height: 32px;
+	margin-top:10px;
+	background-color: #fff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.pay-img{
+	width: 10%;
+	padding-right: 10px;
+	float: left;
+	max-width: 32px;
+}
+
+.pay-font{
+	width: 80%;
+	float: left;
+	line-height: 32px;
+}
+
+.ding{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.two-font span{
+	color: red;
+}
+
+.two-font{
+	background-color: #fff;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.two-font>div:nth-child(1),.change{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+.two-font>div:nth-child(2){
+	margin-top: 5px;
+}
+
+.z{
+	width: 20%;
+	float: left;
+	max-width: 58px;
+}
+
+.change{
+	overflow: hidden;
+	position: relative;
+	margin-top: 10px;
+}
+
+.z-font>p:nth-child(2){
+	font-size: 12px;
+	color: #aaa;
+}
+
+.z-font{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.yes{
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+}
+
+.fr{
+	font-size: 21px;
+	color: #f10d4e;
+	margin-right: 45px;
+}
+
+.pay{
+	position: relative;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+.rel{
+	position: absolute;
+	right: 15px;
+}
+
+.pay,.pay-div{
+	overflow: hidden;
+}
+
+.btn-foot{
+	margin-top: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-bottom: 30px;
+}
+
+.btn-foot>a{
+	color: #fff;
+	display: block;
+	line-height: 35px;
+	text-align: center;
+	background-color: #24b24e;
+}

@@ -1,0 +1,165 @@
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/order.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/receiving.css">
+
+
+<div>
+	<div class="nav">
+		<div class="return"><a ng-click="jump('footer.personcenter')"><img src="./image/return.png"></a></div>
+		<p class="center">管理收货地址</p>
+	</div>
+
+	<div>
+		<div class="shou padd">
+		
+			<div class="shou-div">
+				<p class="fl">罗浩</p>
+				<p class="fr">125xxx364</p>
+				<p class="fl">广东省广州市花都区xx阵xx街67号</p>
+			</div>
+			
+			<div>
+				<div class="moren">
+
+					<div class="fl">
+						<div class="fl ye" id="ye">
+							<img id="img" id="img1" src="./image/ye.png">
+							<img id="img" id="img2" src="./image/yu.png" style="display: none;">
+
+						</div>
+						<p class="fl">默认地址</p>
+					</div>
+					
+					<div class="fr bianji">
+						<p class="fr">编辑</p>
+						<div class="fr ye"><img src="./image/bianji.png"></div>
+					</div>
+					
+					<div class="fr">
+						<p class="fr">删除</p>
+						<div class="fr ye"><img src="./image/del.png"></div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="shou padd">
+		
+			<div class="shou-div">
+				<p class="fl">罗浩</p>
+				<p class="fr">125xxx364</p>
+				<p class="fl">广东省广州市花都区xx阵xx街67号</p>
+			</div>
+			
+			<div>
+				<div class="moren">
+
+					<div class="fl">
+						<div class="fl ye"><img src="./image/yu.png"></div>
+						<p class="fl">默认地址</p>
+					</div>
+					
+					<div class="fr bianji">
+						<p class="fr">编辑</p>
+						<div class="fr ye"><img src="./image/bianji.png"></div>
+					</div>
+					
+					<div class="fr">
+						<p class="fr">删除</p>
+						<div class="fr ye"><img src="./image/del.png"></div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="shou padd">
+		
+			<div class="shou-div">
+				<p class="fl">罗浩</p>
+				<p class="fr">125xxx364</p>
+				<p class="fl">广东省广州市花都区xx阵xx街67号</p>
+			</div>
+			
+			<div>
+				<div class="moren">
+
+					<div class="fl">
+						<div class="fl ye"><img src="./image/yu.png"></div>
+						<p class="fl">默认地址</p>
+					</div>
+					
+					<div class="fr bianji">
+						<p class="fr">编辑</p>
+						<div class="fr ye"><img src="./image/bianji.png"></div>
+					</div>
+					
+					<div class="fr">
+						<p class="fr">删除</p>
+						<div class="fr ye"><img src="./image/del.png"></div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="shou padd">
+		
+			<div class="shou-div">
+				<p class="fl">罗浩</p>
+				<p class="fr">125xxx364</p>
+				<p class="fl">广东省广州市花都区xx阵xx街67号</p>
+			</div>
+			
+			<div>
+				<div class="moren">
+
+					<div class="fl">
+						<div class="fl ye"><img src="./image/yu.png"></div>
+						<p class="fl">默认地址</p>
+					</div>
+					
+					<div class="fr bianji">
+						<p class="fr">编辑</p>
+						<div class="fr ye"><img src="./image/bianji.png"></div>
+					</div>
+					
+					<div class="fr">
+						<p class="fr">删除</p>
+						<div class="fr ye"><img src="./image/del.png"></div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bottom">
+		<div>添加新地址</div>
+	</div>
+
+</div>
+<script type="text/javascript" src="./js/jquery-1.11.3.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".ye").on('click',function(){
+			var img = $(this).children().attr('src');
+			if(img == './image/ye.png'){
+				var qq = './image/yu.png';
+			}else{
+				var qq = './image/ye.png';
+			}
+
+			$(this).children().attr('src',qq);
+				console.log(img);//$("#img2").css('display')
+			
+		})
+	})
+</script>
+

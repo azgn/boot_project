@@ -1,0 +1,65 @@
+.nav{
+	height: 130px;
+	background-color: #f949cf;
+	position: relative;
+}
+
+.fp{
+	padding-bottom: 10px;
+}
+
+.set-img{
+	width: 8%;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+.nav-firstp{
+	color: #fff;
+}
+
+.person{
+	width: 70px;
+	margin:0 auto;
+}
+
+a{
+	color: #000;
+}
+
+.t{
+	width: 25%;
+	float: left;
+}
+
+.t>a>div{
+	width: 60%;
+	margin:0 auto;
+}
+
+.padd{
+	overflow: hidden;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.img-right{
+	width: 50px;
+	float: left;
+}
+
+.wode>a,.wode>span{
+	line-height: 50px;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+.fr{
+	margin-top: 10px;
+}
+
+.head{
+	padding-bottom: 64px;
+}

@@ -1,0 +1,76 @@
+
+<body>
+<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/login.css">
+	<title>登录</title>
+	<div class="start body">
+		<div class="nav">
+			<div class="return">
+				<img src="./image/return.png">
+			</div>
+		</div>
+
+		<div class="head">
+			<div class="head-img">
+				<img src="./image/head.png">
+			</div>
+			
+			<form>
+				<div class="login">
+					<ul class="login-ul">
+						<li>
+							<div class="login-img">
+								<img src="./image/name.png">
+							</div>
+							<div class="input">
+								<input type="text" name="" required minlength="1" maxlength="10" placeholder="用户名/手机号">
+							</div>
+						</li>
+						<li>
+							<div class="login-img">
+								<img src="./image/pwd.png">
+							</div>
+							<div class="input">
+								<input type="text" name="" minlength="3" maxlength="20" required placeholder="密码">
+							</div>
+						</li>
+						<li>
+							<div class="fl">
+								<input type="checkbox" name="" />记住密码
+							</div>
+							<div class="fr"><a href="">忘记密码？</a></div>
+						</li>
+					</ul>
+					
+					<div class="denglu">
+						<a ng-click="jump('footer.home');" >登录</a>
+					</div>
+
+					<div class="zhuce">
+						<a ng-click="jump('zhuce');">注册</a>
+					</div>
+
+				</div>
+			</form>
+		</div>
+
+		<div class="foot">
+			<div class="foot-line">
+				<span>第三方直接登录</span>
+			</div>
+			<div class="foot-list">
+				<ul class="foot-list-ul">
+					<li>
+						<div><img src="./image/wecha.png"></div>
+					</li>
+					<li>
+						<div><img src="./image/qq.png"></div>
+					</li>
+					<li>
+						<div><img src="./image/weibo.png"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>

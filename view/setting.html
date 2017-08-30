@@ -1,0 +1,83 @@
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/personcenter.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/xingxi.css">
+
+<div>
+	<div class="nav">
+		<div class="return"><a ng-click="jump('footer.personcenter')"><img src="./image/return.png"></a></div>
+		<p class="center">设置</p>
+	</div>
+
+	<div class="head">
+		<div>
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/1111.png"></div>
+					<span><a ng-click="jump('xingxi')">基本信息</a></span>
+					<div class="fr"><img src="./image/return1.png"></div>
+					
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/2222.png"></div>
+					<span>修改个人资料</span>
+					<div class="fr">
+						<img src="./image/return1.png">
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/3333.png"></div>
+					<span>修改账户密码</span>
+					<div class="fr"><img src="./image/return1.png"></div>
+					
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode qin">
+					<div class="img-right"><img src="./image/4444.png"></div>
+					<span>清空缓存</span>
+					<div class="fr"><img src="./image/return1.png"></div>
+					
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/5555.png"></div>
+					<span><a href="login.html">注销登录</a></span>
+					<div class="fr"><img src="./image/return1.png"></div>
+					
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/6666.png"></div>
+					<span>关于我们</span>
+					<div class="fr"><img src="./image/return1.png"></div>
+					
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+</div>
+
+<script type="text/javascript" src="./assets/js/jquery-1.11.3.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.qin').on('click',function(){
+			alert("已清理缓存"+ Math.ceil(Math.random() * (100-70)+10)  +"K")
+		})
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body{
+	background-image: none;
+}
+
+.nav{
+	height: 80px;
+	background-color: #f949cf;
+	text-align: center;
+	color: #fdfdfd;
+	letter-spacing: 4px;
+	position: relative;
+	font-size: 18px;
+	overflow: hidden;
+}
+
+.shao{
+	width: 35px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.nav>div{
+	position: absolute;
+}
+
+.logo{
+	width: 70px;
+	bottom: 25px;
+	left: 5px;
+}
+
+.nav>.search{
+	margin: 0 80px;
+	height: 28px;
+	border: 1px solid #efefef;
+	margin-top: 56px;
+	position: relative;
+	padding: 0 33px;
+	bottom: 25px;
+}
+
+.nav>.search>span{
+	display: block;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 5px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.nav>.search>input{
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	height: 27px;
+	color: #fefefe;
+}
+.content{
+	margin-bottom: 50px;
+}
+.search>input[type="text"]::-webkit-input-placeholder{
+	color: #fefefe;
+	font-size: 14px;
+}
+
+/*---------------------------------------------------*/
+
+.i{
+	width: 6px;
+	height: 15px;
+	background-color: #326df7;
+}
+
+.new{
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 10px;
+}
+
+.new-ul p{
+	text-align: center;
+	font-size: 14px;
+}
+
+.new-ul{
+	overflow: hidden;
+}
+
+.new-ul>li{
+	float: left;
+	width: 25%;
+}
+
+.new-ul>li>div{
+	width: 60%;
+	margin:20px auto 0px;
+}
+
+/*--------------------------------------------------------*/
+
+.fr{
+	color: #909090;
+}
+
+.self-left-img,.self-right-img{
+	width: 40%;
+}
+
+.self-left-img>p,.self-right-img>p{
+	color: #000;
+	font-weight: 900;
+	font-size: 12px;
+}
+
+.self{
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+
+.self-right-img p{
+	font-size: 12px;
+}
+
+.contents{
+	padding-bottom: 64px;
+}

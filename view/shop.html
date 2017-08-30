@@ -1,0 +1,100 @@
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/class.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/shop.css">
+<div ng-swipe-left="jump('personcenter')" ng-swipe-right="jump('class')">
+	<div class="nav">
+		<div class="text">购物车</div>
+		<div class="st">编辑</div>
+	</div>
+
+	<div class="header">
+		<div class="header-div">
+			<div class="yuan" id="yuan"><img id="img" src="./image/yuan.png"></div>
+			<div class="tu"><img src="./image/006.png"></div>
+			<div class="header-font">
+				<p>大地蓝蚕丝备注母被二合一100%</p>
+				<span>单价：￥266.00</span>
+				<span>数量：1</span>
+			</div>
+			<div class="return1"><img src="./image/return1.png"></div>
+		</div>	
+
+		<div class="header-div">
+			<div class="yuan" id="yuan"><img id="img" src="./image/yuan.png"></div>
+			<div class="tu"><img src="./image/006.png"></div>
+			<div class="header-font">
+				<p>大地蓝蚕丝备注母被二合一100%</p>
+				<span>单价：￥266.00</span>
+				<span>数量：1</span>
+			</div>
+			<div class="return1"><img src="./image/return1.png"></div>
+		</div>	
+
+		<div class="header-div">
+			<div class="yuan" id="yuan"><img id="img" src="./image/yuan.png"></div>
+			<div class="tu"><img src="./image/006.png"></div>
+			<div class="header-font">
+				<p>大地蓝蚕丝备注母被二合一100%</p>
+				<span>单价：￥266.00</span>
+				<span>数量：1</span>
+			</div>
+			<div class="return1"><img src="./image/return1.png"></div>
+		</div>	
+
+		<div class="header-div">
+			<div class="yuan" id="yuan"><img id="img" src="./image/yuan.png"></div>
+			<div class="tu"><img src="./image/006.png"></div>
+			<div class="header-font">
+				<p>大地蓝蚕丝备注母被二合一100%</p>
+				<span>单价：￥266.00</span>
+				<span>数量：1</span>
+			</div>
+			<div class="return1"><img src="./image/return1.png"></div>
+		</div>	
+
+		<div class="header-div">
+			<div class="yuan" id="yuan"><img id="img" src="./image/yuan.png"></div>
+			<div class="tu"><img src="./image/006.png"></div>
+			<div class="header-font">
+				<p>大地蓝蚕丝备注母被二合一100%</p>
+				<span>单价：￥266.00</span>
+				<span>数量：1</span>
+			</div>
+			<div class="return1"><img src="./image/return1.png"></div>
+		</div>	
+
+		<div class="header-div">
+			<div class="yuan" id="yuan"><img id="img" src="./image/yuan.png"></div>
+			<div class="tu"><img src="./image/006.png"></div>
+			<div class="header-font">
+				<p>大地蓝蚕丝备注母被二合一100%</p>
+				<span>单价：￥266.00</span>
+				<span>数量：1</span>
+			</div>
+			<div class="return1"><img src="./image/return1.png"></div>
+		</div>	
+	</div>
+
+	<!-- <div ui-view class="shopfooter"></div>
+ --></div>
+
+<script type="text/javascript" src="./assets/js/jquery-1.11.3.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".yuan").on('click',function(){
+			var img = $(this).children().attr('src');
+			if(img == './image/yuan.png'){
+				var qq = './image/yes.png';
+			}else{
+				var qq = './image/yuan.png';
+			}
+
+			$(this).children().attr('src',qq);
+				console.log(img);//$("#img2").css('display')
+			
+		})
+	})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+body{
+	background: url('banner.png');
+}
+.nav{
+	position: relative;
+	height: 50px;
+}
+.nav>.return{
+	position: absolute;
+	width:20px;
+	left: 10px;
+	top: 10px;
+}
+/*-----------------------------------------------*/
+.head-img{
+	width: 25%;
+	margin: 0 auto;
+}
+
+.login{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.login-img{
+	width: 8%;
+	float: left;
+	margin-left: 10px;
+}
+
+.login li{
+	overflow: hidden;
+	margin-top: 20px;
+	background-color: #fff; 
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.login>ul>li:nth-child(3){
+	background: none;
+}
+
+
+.input{
+	float: left;
+	width: 80%;
+	margin-left: 2%;
+}
+
+.input>input{
+	border:none;
+}
+
+.fr>a,.fl{
+	color: #fff;
+	font-size: 10px;
+	vertical-align: text-top;
+}
+
+.fl>input{
+	vertical-align: text-bottom;
+}
+
+.denglu>a,.zhuce>a{
+	color: #fff;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+}
+
+.denglu>a{
+	background-color: #3cb9fb;
+}
+
+.zhuce>a{
+	background-color: #eeeeee;
+	color: #949494;
+}
+
+.denglu{
+	margin-top:35px;
+}
+
+.zhuce{
+	margin-top: 15px;
+}
+
+/*-------------------------------------------*/
+.foot{
+	margin-top: 50px;
+}
+
+.foot-line{
+	border-bottom: 1px solid #fff;
+	position: relative;
+	text-align: center;
+}
+
+.foot-line>span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 123px;
+	background-color: #bbbbbb;
+}
+
+.foot-list li{
+	float: left;
+	width: 33.33%;
+}
+
+.foot-list{
+	overflow: hidden;
+	margin-top: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.foot-list-ul{
+	overflow: hidden;
+}
+
+.foot-list-ul>li>div{
+	width: 60%;
+	margin:0 auto;
+}

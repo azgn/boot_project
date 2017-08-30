@@ -1,0 +1,9 @@
+.head>div:nth-child(3){
+	color:#f949cf;
+	border-bottom: 1px solid #f949cf;
+}
+
+.head>div:nth-child(1){
+	color:#000;
+	border-bottom:none;
+}

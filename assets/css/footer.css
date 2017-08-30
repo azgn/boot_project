@@ -1,0 +1,27 @@
+/*底部*/
+.footer-div>div{
+	float: left;
+	width: 25%;
+}
+
+.footer-div{
+	overflow: hidden;
+	min-width: 320px;
+}
+
+.footer-img>a>div{
+	width: 30%;
+	margin:0 auto;
+}
+
+.footer-img>a{
+	color: #000;
+}
+
+.footer{
+	background-color: #eeeeee;
+	padding-top: 5px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}

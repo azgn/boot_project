@@ -1,0 +1,111 @@
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/personcenter.css">
+<div ng-swipe-right="jump('shop')">
+	<div class="nav">
+		<div class="set-img"><a ng-click="jump('setting')"><img src="./image/set.png"></a></div>
+		<p class="center nav-firstp fp">个人中心</p>
+		<div class="person"><img src="./image/person.png"></div>
+		<p class="center nav-firstp">我的昵称</p>
+	</div>
+
+	<div class="header">
+		<div class="padd">
+			<div class="t">
+				<a ng-click="jump('order')">
+					<div>
+						<img src="./image/person01.png">
+					</div>
+					<p class="center">全部订单</p>
+				</a>
+			</div>
+
+			<div class="t">
+			<a ng-click="jump('wait')">
+				<div>
+					<img src="./image/person02.png">
+				</div>
+				<p class="center">待付款</p>
+			</a>
+			</div>
+
+			<div class="t">
+				<a ng-click="jump('wait')">
+					<div>
+						<img src="./image/person03.png">
+					</div>
+					<p class="center">待发货</p>
+				</a>
+			</div>
+			<div class="t">
+				<a ng-click="jump('tuikuan')">
+					<div>
+						<img src="./image/person04.png">
+					</div>
+					<p class="center">退款/售后</p>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="head">
+		<div>
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/111.png"></div>
+					<a ng-click="jump('order')"><span>我的订单</span></a>
+					<div class="fr"><img src="./image/return1.png"></div>
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/222.png"></div>
+					<a ng-click="jump('order')"><span>购买记录</span></a>
+					<div class="fr"><img src="./image/return1.png"></div>
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/333.png"></div>
+					<a ng-click="jump('receiving')">
+						<span>管理收货地址</span>
+					</a>
+					<div class="fr"><img src="./image/return1.png"></div>
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/444.png"></div>
+					<span>我的收藏</span>
+					<div class="fr"><img src="./image/return1.png"></div>
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/555.png"></div>
+					<span>浏览历史</span>
+					<div class="fr"><img src="./image/return1.png"></div>
+				</div>
+			</div>
+
+			<div class="padd">
+				<div class="wode">
+					<div class="img-right"><img src="./image/666.png"></div>
+					<a ng-click="jump('comment')">
+						<span>商品评论</span>
+					</a>
+					
+					<div class="fr"><img src="./image/return1.png"></div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- <div ng-include="'./view/headfooter.html'"></div> -->
+	<!-- <div ui-view class=""></div> -->
+</div>

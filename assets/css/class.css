@@ -1,0 +1,62 @@
+.head>div{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.head{
+	overflow: hidden;
+}
+
+.head>div:nth-child(1){
+	color: #f949cf;
+	border-bottom: 1px solid #f949cf;
+	padding-bottom: 10px;
+}
+
+.shop{
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+.shop-img{
+	width: 45%;
+	float: left;
+	padding-right: 10px;
+}
+
+.shop-font{
+	padding-top: 15%;
+	float: left;
+}
+
+.shop-font>p{
+	font-size: 12px;
+	color: #000;
+}
+
+.shop-font>span{
+	font-size: 12px;
+}
+
+.shop-li{
+	position: relative;
+	overflow: hidden;
+}
+
+.shop-div{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.return{
+	position: absolute;
+	right: 0;
+	top: 35%;
+}
+
+.header{
+	padding-bottom: 64px;
+}

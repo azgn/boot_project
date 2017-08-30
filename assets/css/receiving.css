@@ -1,0 +1,51 @@
+body{
+	background-color: #eee;
+}
+
+.shou>div,.moren,.moren>div{
+	overflow: hidden;
+}
+
+.ye{
+	
+	max-width: 33px;
+}
+
+.moren{
+	padding-top: 5px;
+}
+
+.moren p{
+	line-height: 33px;
+	margin-left: 5px;
+}
+
+.bianji{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.shou-div{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+}
+
+.shou{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	background-color: #fff;
+}
+
+.bottom{
+	margin-top: 20px;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.bottom>div{
+	text-align: center;
+	color: #fff;
+	line-height: 35px;
+	background-color: #24b24e;
+}
